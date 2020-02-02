@@ -1,0 +1,54 @@
+/* pages/other/about/about.wxss */
+.about-page{
+
+}
+
+.wrapper{
+  position: fixed;
+  left: 0;
+  right: 0;
+  padding: 30rpx 0;
+  line-height: 45rpx;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+.pic{
+  height: 240rpx;
+}
+
+.pic .wrapper{
+  top: 0;
+}
+
+.pic image{
+  width: 180rpx;
+  height: 180rpx;
+}
+
+.cr{
+  height: 150rpx;
+}
+
+.cr .wrapper{
+  bottom: 0;
+}
+
+.cr text{
+  display: block;
+}
+
+.text{
+  padding: 0 30rpx;
+}
+
+.caption{
+  display: block;
+  padding: 30rpx 0;
+  font-size: 30rpx;
+}
+
+.context{
+  display: block;
+  font-size: 30rpx;
+}

@@ -1,0 +1,9 @@
+<view class="flex c-categories">
+    <div class="product-block" wx:for="{{products}}" wx:key="{{item.code}}" catchtap="goDetail" data-product-code="{{item.code}}">
+        <div class="img-outblock">
+            <image src="{{item.imgUrl}}"></image>
+        </div>
+        <p style="display: block"><span>￥</span><span class="product-prize">{{item.price}}</span></p>
+        <p>{{item.name}}</p>
+    </div>
+</view>

@@ -1,0 +1,154 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/category/category",
+    "pages/cart/cart",
+    "pages/order/order",
+    "pages/mine/mine",
+    "pages/login/login",
+    "pages/product-detail/product-detail"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "田田家",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#fb7422",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "image/home.png",
+        "selectedIconPath": "image/fill-home.png",
+        "text": "主页"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "iconPath": "image/category.png",
+        "selectedIconPath": "image/fill-category.png",
+        "text": "找货"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "image/mine.png",
+        "selectedIconPath": "image/fill-mine.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "subPackages": [
+    {
+      "root": "sub-cart",
+      "pages": [
+        "checkout/checkout",
+        "order-pay/order-pay"
+      ]
+    },
+    {
+      "root": "sub-index",
+      "pages": [
+        "industry-news/industry-news",
+        "quick-cart/quick-cart",
+        "vendor/vendor"
+      ]
+    },
+    {
+      "root": "sub-login",
+      "pages": [
+        "register/register",
+        "reset-pass/reset-pass",
+        "register-agreement/register-agreement"
+      ]
+    },
+    {
+      "root": "sub-mall",
+      "pages": [
+        "cooperation/cooperation",
+        "distributor/distributor",
+        "distributor-info/distributor-info",
+        "distributor-category/distributor-category",
+        "product/product",
+        "search/search",
+        "search-product/search-product",
+        "search-store/search-store",
+        "store/store",
+        "store-inner/store-inner"
+      ]
+    },
+    {
+      "root": "sub-mine",
+      "pages": [
+        "account/account",
+        "account/change-mobile/change-mobile",
+        "account/change-pass/change-pass",
+        "account/change-user/change-user",
+        "address/add/add",
+        "address/edit/edit",
+        "address/list/list",
+        "chat-message/chat-message",
+        "favorite/favorite",
+        "feedback/feedback",
+        "follow/follow",
+        "message/message",
+        "message-list/message-list",
+        "settings/settings",
+        "settings/about/about",
+        "settings/agreement/agreement"
+      ]
+    },
+    {
+      "root": "sub-order",
+      "pages": [
+        "order-cancel/order-cancel",
+        "order-cancel-detail/order-cancel-detail",
+        "order-detail/order-detail",
+        "order-search/order-search",
+        "order-track/order-track"
+      ]
+    }
+  ],
+  "preloadRule": {
+    "pages/index/index": {
+      "network": "all",
+      "packages": [
+        "sub-index"
+      ]
+    },
+    "pages/category/category": {
+      "network": "all",
+      "packages": [
+        "sub-mall"
+      ]
+    },
+    "pages/cart/cart": {
+      "network": "all",
+      "packages": [
+        "sub-cart"
+      ]
+    },
+    "pages/order/order": {
+      "network": "all",
+      "packages": [
+        "sub-order"
+      ]
+    },
+    "pages/mine/mine": {
+      "network": "all",
+      "packages": [
+        "sub-mine"
+      ]
+    }
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  },
+  "debug": false,
+  "sitemapLocation": "sitemap.json"
+}

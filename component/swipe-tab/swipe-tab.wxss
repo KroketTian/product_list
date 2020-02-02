@@ -1,0 +1,21 @@
+/* component/swipe-tab/swipe-tab.wxss */
+@import '../../common.wxss';
+
+.m-swipe-tab {
+  height: 100%;
+}
+
+.m-swipe-tab .tabs {
+  height: 88rpx;
+  line-height: 88rpx;
+  text-align: center;
+  background-color: #fff;
+}
+
+.m-swipe-tab .tabs .cell {
+  border-bottom: 2px solid transparent;
+}
+
+.m-swipe-tab .tabs .cell.on {
+  border-bottom-color: #fb7422;
+}

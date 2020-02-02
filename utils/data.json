@@ -1,0 +1,140 @@
+{
+    "data": {
+        "categotyData": [
+            {
+                "categories": [],
+                "id": "2",
+                "name": "沙发"
+            },
+            {
+                "categories": [],
+                "id": "3",
+                "name": "桌"
+            },
+            {
+                "categories": [],
+                "id": "4",
+                "name": "椅"
+            }
+        ],
+        "productsData": {
+            "sofa": [{
+                    "id": "6",
+                    "imgUrl": "https://tintinhome-1259774835.cos.ap-chengdu.myqcloud.com/sf6.jpg",
+                    "name": "沙发 SF6",
+                    "price": 1999.9,
+                    "oldPrice": 3000.0
+                },
+                {
+                    "id": "5",
+                    "imgUrl": "https://tintinhome-1259774835.cos.ap-chengdu.myqcloud.com/sf5.jpg",
+                    "name": "沙发 SF5",
+                    "price": 3000,
+                    "oldPrice": 4000.0
+                },
+                {
+                    "id": "4",
+                    "imgUrl": "https://tintinhome-1259774835.cos.ap-chengdu.myqcloud.com/sf4.jpg",
+                    "name": "沙发 SF4",
+                    "price": 2560,
+                    "oldPrice": 3000.0
+                },
+                {
+                    "id": "3",
+                    "imgUrl": "https://tintinhome-1259774835.cos.ap-chengdu.myqcloud.com/sf3.jpg",
+                    "name": "沙发 SF3",
+                    "price": 998.9,
+                    "oldPrice": 3000.0
+                },
+                {
+                    "id": "2",
+                    "imgUrl": "https://tintinhome-1259774835.cos.ap-chengdu.myqcloud.com/sf2.jpg",
+                    "name": "沙发 SF2",
+                    "price": 4523,
+                    "oldPrice": 6000.0
+                },
+                {
+                    "id": "1",
+                    "imgUrl": "https://tintinhome-1259774835.cos.ap-chengdu.myqcloud.com/sf1.jpeg",
+                    "name": "沙发 SF1",
+                    "price": 1205,
+                    "oldPrice": 3000.0
+                }
+            ],
+            "chair":[
+                {
+                    "id": "1",
+                    "imgUrl": "https://tintinhome-1259774835.cos.ap-chengdu.myqcloud.com/ch1.jpg",
+                    "name": "椅子 SF1",
+                    "price": 123,
+                    "oldPrice": 500
+                },
+                {
+                    "id": "1",
+                    "imgUrl": "https://tintinhome-1259774835.cos.ap-chengdu.myqcloud.com/ch2.jpg",
+                    "name": "椅子 SF2",
+                    "price": 100,
+                    "oldPrice": 200
+                },
+                {
+                    "id": "1",
+                    "imgUrl": "https://tintinhome-1259774835.cos.ap-chengdu.myqcloud.com/ch3.jpg",
+                    "name": "椅子 SF3",
+                    "price": 78,
+                    "oldPrice": 90
+                },
+                {
+                    "id": "1",
+                    "imgUrl": "https://tintinhome-1259774835.cos.ap-chengdu.myqcloud.com/ch4.jpg",
+                    "name": "椅子 SF4",
+                    "price": 56,
+                    "oldPrice": 120
+                },
+                {
+                    "id": "1",
+                    "imgUrl": "https://tintinhome-1259774835.cos.ap-chengdu.myqcloud.com/ch5.jpg",
+                    "name": "椅子 SF5",
+                    "price": 120,
+                    "oldPrice": 150
+                }
+            ],
+            "disk":[
+                {
+                    "id": "1",
+                    "imgUrl": "https://tintinhome-1259774835.cos.ap-chengdu.myqcloud.com/di1.jpg",
+                    "name": "桌子 SF1",
+                    "price": 123,
+                    "oldPrice": 500
+                },
+                {
+                    "id": "1",
+                    "imgUrl": "https://tintinhome-1259774835.cos.ap-chengdu.myqcloud.com/di2.jpg",
+                    "name": "桌子 SF2",
+                    "price": 123,
+                    "oldPrice": 500
+                },
+                {
+                    "id": "1",
+                    "imgUrl": "https://tintinhome-1259774835.cos.ap-chengdu.myqcloud.com/di3.jpg",
+                    "name": "桌子 SF3",
+                    "price": 123,
+                    "oldPrice": 500
+                },
+                {
+                    "id": "1",
+                    "imgUrl": "https://tintinhome-1259774835.cos.ap-chengdu.myqcloud.com/di4.jpg",
+                    "name": "桌子 SF4",
+                    "price": 123,
+                    "oldPrice": 500
+                },
+                {
+                    "id": "1",
+                    "imgUrl": "https://tintinhome-1259774835.cos.ap-chengdu.myqcloud.com/di5.jpg",
+                    "name": "桌子 SF5",
+                    "price": 123,
+                    "oldPrice": 500
+                }
+            ]
+        }
+    }
+}

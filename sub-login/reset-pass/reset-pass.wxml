@@ -1,0 +1,17 @@
+<!--pages/other/reset-pass/reset-pass.wxml-->
+<form>
+  <view class="m-input">
+    <view class="label">手机号</view>
+    <input placeholder="请输入用户手机号" placeholder-class="input-placeholder" />
+  </view>
+  <view class="m-input line">
+    <view class="label">新密码</view>
+    <input password placeholder="输设置新密码(限定6-32个字符内)" placeholder-class="input-placeholder" />
+  </view>
+  <view class="m-input line m-input2">
+    <view class="label">验证码</view>
+    <input placeholder="输入6位数验证码" placeholder-class="input-placeholder" confirm-type="go" maxlength="6" />
+    <button class="button code-button" hover-class="button-hover">获取短信验证码</button>
+  </view>
+  <button class="button m-submit" hover-class="button-hover">确 定</button>
+</form>

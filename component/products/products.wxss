@@ -1,0 +1,36 @@
+.product-block{
+    background:#fff;
+    text-align:center;
+    width:43%;
+    display:inline-block;
+    justify-content:center;
+    margin:3%;
+    float:left;
+    border:1px solid #ddd;
+    padding:2% 0%;
+    box-sizing:border-box;
+    min-height:9rem;
+
+  }
+  .product-block .img-outblock{
+    width:28vw;
+    height:28vw;
+    display:block;
+    margin:6% auto;
+    background: #fff;
+  }
+  .img-outblock image{
+    max-height:100%;
+    max-width:100%;
+    display:block;
+    margin:auto;
+  }
+
+  .product-block p{
+    color:#555;
+  }
+  .product-prize{
+    font-size:1rem;
+    font-weight:900;
+
+  }

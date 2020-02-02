@@ -1,0 +1,15 @@
+<skeleton selector="skeleton"
+          loading="chiaroscuro"
+          bgcolor="#fff"
+          wx:if="{{showSkeleton}}"></skeleton>
+
+<view class="container skeleton">
+  <view class="userinfo skeleton-radius">
+    <!-- <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block> -->
+    <image mode="widthFix" style="width:100%;" src="../../image/index-bg-min.jpg" catchtap="goCategory"></image>
+  </view>
+</view>

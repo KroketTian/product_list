@@ -1,0 +1,34 @@
+<!--pages/mall/search/search.wxml-->
+<view class="p-search flex column">
+  <search-bar
+    placeholder="{{placeholder}}"
+    bind:search="bindSearch"
+  />
+  <swipe-tab
+    class="cell"
+    tabItemStyle="font-size: 30rpx;"
+    tabs="{{tabs}}"
+    current="{{0}}"
+    bindchange="bindChange"
+  >
+    <scroll-view 
+      slot="{{index}}"
+      wx:for="{{hotWords}}"
+      wx:key="{{index}}"
+      scroll-y="{{true}}"
+    >
+      <text class="title">大家都在搜索</text>
+      <view class="list">
+        <navigator 
+          wx:for="{{item}}"
+          wx:for-index="idx"
+          wx:for-item="entry"
+          wx:key="{{idx}}"
+          class="item" 
+          url="/sub-mall/{{index === 0 ? 'search-product/search-product' : 'search-store/search-store'}}?keyword={{entry}}"
+        >{{entry}}
+        </navigator>
+      </view>
+    </scroll-view>
+  </swipe-tab>
+</view>

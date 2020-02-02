@@ -1,0 +1,35 @@
+<!--component/search-bar/search-bar.wxml-->
+<view class="m-search-bar flex">
+  <navigator 
+    wx:if="{{jumpUrl}}"
+    class="input cell"
+    url="{{jumpUrl}}"
+  >
+    <text class="iconfont icon-search"></text>
+    <text>50000件商品任你选</text>
+  </navigator>
+  <view class="input cell" wx:else>
+    <view class="flex">
+      <text class="iconfont icon-search"></text>
+      <input
+        class="cell"
+        placeholder="{{placeholder}}"
+        confirm-type="search"
+        bindblur="bindBlur"
+        bindconfirm="bindConfirm"
+      />
+    </view>
+  </view>
+  <text 
+    class="search-btn"
+    catchtap="bindConfirm"
+    wx:if="{{searchButton}}"
+  >搜索
+  </text>
+  <slot wx:else></slot>
+  <!-- <navigator 
+    class="iconfont icon-message un-read" 
+    url="/sub-mine/message/message"
+  >
+  </navigator> -->
+</view>

@@ -1,0 +1,71 @@
+/* pages/component/category-list/category-list.wxss */
+@import '../../common.wxss';
+
+.c-category-list {
+  height: 100%;
+}
+
+.m-one-cate {
+  width: 25%;
+  background-color: #f0f0f0;
+}
+
+.m-one-cate .item {
+  min-height: 100rpx;
+  padding: 20rpx;
+  border-bottom: 1px solid #e5e5e5;
+  border-right: 1px solid #e5e5e5;  
+}
+
+.m-one-cate .item.on {
+  background-color: #fff;
+  border-right-color: #fff;  
+}
+
+.sub-panel {
+  padding: 0 20rpx;
+  margin-bottom: 10rpx;
+}
+
+.first-title {
+  background-color: #f0f0f0;
+  padding: 26rpx 20rpx;
+  margin: 14rpx 20rpx 10rpx;
+}
+
+.sub-title {
+  background-color: #f0f0f0;
+  padding: 16rpx 20rpx;
+  line-height: 56rpx;
+}
+
+.sub-title .icon-next {
+  transform: rotate(90deg);
+  transition: transform .2s ease;
+}
+
+.sub-title.on .icon-next {
+  transform: rotate(-90deg);
+}
+
+.sub-title .icon-next.r-arrow {
+  transform: rotate(0deg);
+}
+
+.sub {
+  padding-top: 10rpx;
+}
+
+.sub .item {
+  margin-bottom: 10rpx;
+  padding: 4rpx 12rpx;
+  height: 103rpx;
+  word-break: break-all;
+  line-height: 1.4;
+  border: 1px solid #e5e5e5;
+  width: 32%;
+}
+
+.sub .item.empty {
+  border: none;
+}

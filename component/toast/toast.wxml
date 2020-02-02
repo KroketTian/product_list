@@ -1,0 +1,2 @@
+<!--pages/component/toast/toast.wxml-->
+<view id="m-toast" class="m-toast {{activeClass}}" style="{{style}}">{{ content }}</view>

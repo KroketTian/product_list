@@ -1,0 +1,121 @@
+/* pages/other/login/login.wxss */
+
+page {
+  background-color: #f5f5f5;
+}
+
+.tab-nav .item {
+  line-height: 88rpx;
+  border-bottom: 4rpx solid #fff;
+  font-size: 30rpx;
+  text-align: center;
+  background-color: #fff;
+}
+
+.tab-nav .active {
+  border-bottom-color: #fb7422;
+}
+
+.tab-content {
+  padding: 32rpx 32rpx 0 32rpx;
+}
+
+.pane {
+  display: none;
+}
+
+.pane.active {
+  display: block;
+}
+
+.m-input {
+  position: relative;
+  border: 2rpx solid #e5e5e5;
+  background-color: #fff;
+}
+
+.m-input .label {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 80rpx;
+  padding-top: 16rpx;
+  line-height: 48rpx;
+  text-indent: 20rpx;
+}
+
+.m-input2 .label {
+  width: 104rpx;
+}
+
+.m-input input {
+  margin-left: 80rpx;
+  height: 80rpx;
+  min-height: 80rpx;
+  line-height: 48rpx;
+  padding: 16rpx 10rpx;
+  font-size: 28rpx;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.m-input2 input {
+  margin-left: 104rpx;
+  margin-right: 230rpx;
+}
+
+.m-input.line {
+  border-top: none;
+}
+
+.input-placeholder {
+  font-size: 24rpx;
+}
+
+.m-submit {
+  margin-top: 40rpx;
+}
+
+.code-button {
+  position: absolute;
+  top: 10rpx;
+  right: 10rpx;
+  z-index: 2;
+  width: 210rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  font-size: 24rpx;
+}
+
+.options {
+  margin-top: 12rpx;
+  padding: 0 32rpx;
+}
+
+.other-login {
+  margin: 80rpx 32rpx 0;
+  border-top: 2rpx solid #e5e5e5;
+}
+
+.other-login text {
+  margin: -20rpx auto;
+  width: 180rpx;
+  line-height: 40rpx;
+  display: block;
+  text-align: center;
+  background-color: #f5f5f5;
+  color: #999;
+}
+
+.wechat {
+  margin: 50rpx auto 0;
+  display: block;
+  width: 90rpx;
+  height: 90rpx;
+  line-height: 86rpx;
+  border-radius: 50%;
+  border: 2rpx solid #44b549;
+  font-size: 64rpx;
+  text-align: center;
+  color: #44b549;
+}

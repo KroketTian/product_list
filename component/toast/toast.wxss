@@ -1,0 +1,18 @@
+/* pages/component/toast/toast.wxss */
+.m-toast {
+  border-radius: 40rpx;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0 20rpx;
+  padding: 20rpx 30rpx;
+  z-index: 30;
+  opacity: 0;
+  transition: opacity .3s ease;
+}
+
+.m-toast.active {
+  opacity: 1;
+}

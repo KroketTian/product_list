@@ -1,0 +1,4 @@
+page {
+    --color: #fb7422;
+    --colorRed: #fe0f17;
+}

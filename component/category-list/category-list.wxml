@@ -1,0 +1,80 @@
+<!--pages/component/category-list/category-list.wxml-->
+<view class="flex c-category-list">
+  <scroll-view scroll-y class="m-one-cate">
+    <view 
+      class="item flex column jcc {{active === 'all' ? 'on' : ''}}" 
+      wx:if="{{categoryType !== 10}}"
+      hover-class="none"
+      catchtap="bindTabTap"
+      data-code="all"
+      data-search-key="product-all"
+    >
+      <text>全部商品</text>
+    </view>
+    <view 
+      class="item flex column jcc {{active === item.code ? 'on' : ''}}" 
+      wx:for="{{categories}}"
+      wx:key="{{item.code}}"
+      catchtap="bindTabTap"
+      data-code="{{item.code}}"
+      data-search-key="{{item.searchKey}}"
+    >
+      <text>{{item.name}}</text>
+    </view>
+  </scroll-view>
+  <!-- <scroll-view scroll-y class="m-multi-cate cell">
+    <view 
+      class="item" 
+      wx:for="{{categories}}"
+      wx:key="{{item.code}}"
+      wx:if="{{item.code === active}}"
+    >
+      <navigator 
+        class="first-title flex" 
+        hover-class="none"
+        url="/sub-mall/search-product/search-product?{{categoryType === 10 ? 'first_code=' + item.code : 'distributor_id=' + distributorId + '&category_type=20&category_id=' + item.id}}"
+      >
+        <text class="cell">全部{{item.name}}</text>
+        <text class="iconfont icon-next"></text>
+      </navigator>
+      <view 
+        class="sub-panel" 
+        wx:for="{{item.categories}}" 
+        wx:for-item="second"
+        wx:key="{{second.code}}"
+      >
+        <view  class="sub-title flex {{subActives[second.code] ? '' : 'on'}}">
+          <navigator
+            class="cell"
+            hover-class="none"
+            url="/sub-mall/search-product/search-product?{{categoryType === 10 ? 'second_code=' + second.code : 'distributor_id=' + distributorId + '&category_type=20&category_id=' + second.id}}"
+          >{{second.name}}
+          </navigator>
+          <text
+            wx:if="{{(second.categories && second.categories.length > 0)}}"
+            class="iconfont icon-next"
+            data-code="{{second.code}}"
+            catchtap="bindSubTap"
+          >
+          </text>
+          <text
+            wx:else
+            class="iconfont icon-next r-arrow"
+          >
+          </text>
+        </view>
+        <view class="sub flex jcsb" wx:if="{{(second.categories && second.categories.length > 0) && !subActives[second.code]}}">
+          <navigator 
+            class="item flex column jcc {{entry.name === '' ? 'empty' : ''}}" 
+            wx:for="{{second.categories}}" 
+            wx:for-item="entry"
+            wx:key="{{entry.code}}"
+            url="/sub-mall/search-product/search-product?{{categoryType === 10 ? 'third_code=' + entry.code : 'distributor_id=' + distributorId + '&category_type=20&category_id=' + entry.id}}"
+          >
+            <text>{{entry.name}}</text>
+          </navigator>
+        </view>
+      </view>
+    </view>
+  </scroll-view> -->
+</view>

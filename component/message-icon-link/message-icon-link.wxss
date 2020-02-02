@@ -1,0 +1,21 @@
+/* component/message-icon-link/message-icon-link.wxss */
+@import '../../common.wxss';
+
+.c-message-icon.icon-message {
+  font-size: 40rpx;
+  width: 88rpx;
+  text-align: center;
+  line-height: 60rpx;
+}
+
+.c-message-icon.un-read:after {
+  content: "";
+  font-size: 0;
+  width: 12rpx;
+  height: 12rpx;
+  border-radius: 50%;
+  background-color: #f00;
+  position: absolute;
+  top: 16rpx;
+  right: 16rpx;
+}

@@ -1,0 +1,55 @@
+<!--pages/other/mine/mine.wxml-->
+<view class="mine-page">
+  <view class="mine-header">
+    <!-- <navigator url="">
+      <icon class="iconfont icon-message"></icon>
+    </navigator> -->
+    <view class="user-info flex" wx:if="{{isLogin}}">
+      <image class="user-img" src="{{userInfo.imgUrl}}"></image>
+      <text class="user-name cell">{{userInfo.name}}</text>
+    </view>
+    <navigator class="user-info flex" url="" wx:else>
+      <!-- <icon class="iconfont icon-avatar user-img"></icon> -->
+      <image wx:if="{{hasUserInfo || canIUse}}" bindtap="bindViewTap" class="userinfo-avatar user-img" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text wx:if="{{hasUserInfo || canIUse}}" class="user-name cell">{{userInfo.nickName}}</text>
+      <text wx:if="{{!hasUserInfo && canIUse}}" class="user-name cell" open-type="getUserInfo" bindgetuserinfo="getUserInfo">点击登录</text>
+    </navigator>
+  </view>
+  <view class="mine-item mine-service">
+    <view class="mine-title line-bottom">
+      <text>我的服务</text>
+    </view>
+    <view class="navigator-list flex jcsb">
+      <!-- <navigator class="navigator-item" hover-class="navigator-item-hover" url="">
+        <icon class="iconfont icon-goods-collection"></icon>收藏商品
+      </navigator> -->
+      <!-- <navigator class="navigator-item" hover-class="navigator-item-hover" url="">
+        <icon class="iconfont icon-store"></icon>收藏店铺
+      </navigator> -->
+      <!-- <navigator class="navigator-item" hover-class="navigator-item-hover" url="">
+        <icon class="iconfont icon-account-info"></icon>账号信息
+      </navigator> -->
+      <navigator class="navigator-item" hover-class="navigator-item-hover" url="/sub-mine/feedback/feedback">
+        <icon class="iconfont icon-yijianfankui"></icon>意见反馈
+      </navigator>
+      <!-- <navigator class="navigator-item" hover-class="navigator-item-hover" url="">
+        <icon class="iconfont icon-message"></icon>联系客服
+      </navigator> -->
+      <navigator class="navigator-item" hover-class="navigator-item-hover" url="">
+      </navigator>
+      <navigator class="navigator-item" hover-class="navigator-item-hover" url="">
+      </navigator>
+      <navigator class="navigator-item" hover-class="navigator-item-hover" url="">
+      </navigator>
+      <!-- <navigator class="navigator-item" hover-class="navigator-item-hover" url="/sub-mine/settings/settings">
+        <icon class="iconfont icon-settings"></icon>设置
+      </navigator> -->
+    </view>
+    <view class="navigator-list flex jcsb">
+      <navigator class="navigator-item" hover-class="navigator-item-hover" url="">
+      </navigator>
+      <navigator class="navigator-item" hover-class="navigator-item-hover" url="">
+      </navigator>
+    </view>
+  </view>
+</view>

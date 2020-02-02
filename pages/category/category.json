@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "search-bar": "/component/search-bar/search-bar",
+    "message-icon-link": "/component/message-icon-link/message-icon-link",
+    "category-list": "/component/category-list/category-list",
+    "products": "/component/products/products"
+  },
+  "navigationBarTitleText": "找货"
+}

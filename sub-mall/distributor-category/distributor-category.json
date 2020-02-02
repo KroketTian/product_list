@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "search-bar": "/component/search-bar/search-bar",
+    "category-list": "/component/category-list/category-list"
+  }
+}

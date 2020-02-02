@@ -1,0 +1,16 @@
+/* pages/other/feedback/feedback.wxss */
+.feedback-page{
+  padding: 30rpx;
+}
+
+.feedback-page textarea{
+  width: 100%;
+  padding: 20rpx;
+  line-height: 1.5;
+  background: #fff;
+  box-sizing: border-box;
+}
+
+.feedback-page button{
+  margin-top: 30rpx;
+}

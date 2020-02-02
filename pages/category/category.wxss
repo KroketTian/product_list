@@ -1,0 +1,38 @@
+/* pages/mall/category/category.wxss */
+page {
+  height: 100%;
+  background-color: #fff;
+}
+
+.p-category {
+  height: 100%;
+}
+
+.category-list {
+  overflow: hidden;
+  flex: 1;
+  display: block;
+  /*width: 0;*/
+  max-width: 100%;
+  flex-basis: 0;
+  min-width: 0;
+}
+
+.category-content{
+  flex:1;
+}
+.products-block{
+  position:absolute;
+  margin-left:25%;
+  width:75%;
+  flex:1;
+  height:100%;
+  overflow:scroll;
+}
+.products-loading{
+  text-align:center;
+font-size:1rem;
+color:#555;
+padding-top:7rem;
+
+}

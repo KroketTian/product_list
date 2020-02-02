@@ -1,0 +1,14 @@
+<!--pages/mall/distributor-category/distributor-category.wxml-->
+<view class="p-category flex column">
+  <search-bar
+    placeholder="请输入店铺内商品"
+    bind:search="bindSearch"
+  />
+  <category-list 
+    class="category-list" 
+    categories="{{categories}}" 
+    active="{{active}}" 
+    category-type="{{categoryType}}" 
+    distributor-id="{{distributorId}}" 
+  />
+</view>

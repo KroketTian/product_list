@@ -1,0 +1,23 @@
+<!--component/swipe-tab/swipe-tab.wxml-->
+<view class="m-swipe-tab flex column">
+  <view class="tabs flex" style="{{tabStyle}}">
+    <view 
+      class="cell {{current === index ? 'on' : ''}}" 
+      style="{{tabItemStyle}}"
+      wx:for="{{tabs}}"
+      wx:key="{{index}}"
+      data-idx="{{index}}"
+      catchtap="bindTabTap"
+    >{{item}}
+    </view>
+  </view>
+  <swiper
+    class="cell"
+    current="{{current}}"
+    bindchange="bindChange"
+  >
+    <swiper-item wx:for="{{tabs}}" wx:key="{{index}}">
+      <slot name="{{index}}"></slot>
+    </swiper-item>
+  </swiper>
+</view>

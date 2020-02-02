@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "search-bar": "/component/search-bar/search-bar",
+    "swipe-tab": "/component/swipe-tab/swipe-tab"
+  }
+}

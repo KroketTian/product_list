@@ -1,0 +1,25 @@
+/* pages/other/agreement/agreement.wxss */
+.agreement-page{
+
+}
+
+.text{
+  padding: 30rpx;
+}
+
+.caption{
+  display: block;
+  padding: 20rpx 0 10rpx 0;
+  font-size: 30rpx;
+}
+
+.context{
+  display: block;
+  padding-bottom: 10rpx;
+  font-size: 30rpx;
+}
+
+.point{
+  display: block;
+  padding-bottom: 10rpx;
+}

@@ -1,0 +1,37 @@
+<!--pages/product-detail/product-detail.wxml-->
+<view class="product-detail-view">
+    <!-- <view class="top-bar intop-bar" style="opacity: {{ 1-topBarShowLevel/10 }}">
+        <i catchtap="goBack" class="icon-back back-icon iconfont"></i>
+    </view>
+    <view class="top-bar" style="opacity: {{ topBarShowLevel/10 }}">
+        <i catchtap="goBack" class="icon-back back-icon iconfont"></i>
+    </view> -->
+    <view class="product-banner">
+        <image src="{{productDetail.imgUrl}}"></image>
+    </view>
+    <view class="content-block title-block">
+        <view class="prize">
+            <p class="new-prize">￥<span>{{productDetail.price}}</span></p>
+            <p class="old-prize">价格 <span class="old-prize-num">￥{{productDetail.oldPrice}}</span></p>
+        </view>
+        <h5>{{productDetail.name}}</h5>
+    </view>
+    <view class="content-block detail">
+        <label class="detail-label">保障</label>
+        <ul class="detial-content promise">
+            <li>正品保证</li>
+            <li>极速退货</li>
+            <li>极速退款</li>
+            <li>七天退货</li>
+        </ul>
+    </view>
+    <view class="content-block product-detail">
+        <p class="content-block-title">宝贝详情</p>
+        <p>这是产品介绍</p>
+        <image src="{{productDetail.imgUrl}}"></image>
+        <p>这是产品介绍</p>
+        <image src="{{productDetail.imgUrl}}"></image>
+        <p>这是产品介绍</p>
+        <image src="{{productDetail.imgUrl}}"></image>
+    </view>
+</view>

@@ -1,0 +1,74 @@
+/* pages/other/mine/mine.wxss */
+.mine-page{
+  
+}
+
+.mine-header{
+  padding: 20rpx 30rpx;
+  text-align: right;
+  background: var(--color);
+}
+
+.mine-header .icon-message{
+  font-size: 40rpx;
+  color: #fff;
+}
+
+.user-info{
+  text-align: left;
+}
+
+.user-img{
+  width: 150rpx;
+  height: 150rpx;
+  line-height: 150rpx;
+  font-size: 90rpx;
+  text-align: center;
+  color: #ccc;
+  background: #fff;
+  border-radius: 150rpx;
+}
+
+.user-name{
+  padding: 20rpx 0 0 20rpx;
+  font-size: 30rpx;
+  color: #fff;
+}
+
+.mine-item{
+  padding: 0 30rpx 40rpx;
+  margin: 20rpx 0;
+  background: #fff;
+}
+
+.mine-title{
+  line-height: 80rpx;
+}
+
+.navigator-list{
+  margin-top: 40rpx;
+}
+
+.navigator-item{
+  min-width: 120rpx;
+  text-align: center;
+  color: #999;
+}
+
+.navigator-item-hover{
+  color: var(--color);
+}
+
+.navigator-item icon{
+  display: block;
+  margin-bottom: 15rpx;
+}
+
+.mine-orders .navigator-item icon{
+  font-size: 50rpx;
+  color: var(--color);
+}
+
+.mine-service .navigator-item icon{
+  font-size: 50rpx;
+}

@@ -1,0 +1,64 @@
+/* pages/other/reset-pass/reset-pass.wxss */
+
+page {
+  background-color: #f5f5f5;
+}
+
+form {
+  display: block;
+  margin: 32rpx 32rpx 0;
+}
+
+.m-input {
+  position: relative;
+  border: 2rpx solid #e5e5e5;
+  background-color: #fff;
+}
+
+.m-input.line {
+  border-top: none;
+}
+
+.input-placeholder {
+  font-size: 24rpx;
+}
+
+.m-input .label {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 104rpx;
+  padding-top: 16rpx;
+  line-height: 48rpx;
+  text-indent: 20rpx;
+}
+
+.m-input input {
+  margin-left: 104rpx;
+  height: 80rpx;
+  min-height: 80rpx;
+  line-height: 48rpx;
+  padding: 16rpx 10rpx;
+  font-size: 28rpx;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.m-input2 input {
+  margin-right: 230rpx;
+}
+
+.code-button {
+  position: absolute;
+  top: 10rpx;
+  right: 10rpx;
+  z-index: 2;
+  width: 210rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  font-size: 24rpx;
+}
+
+.m-submit {
+  margin-top: 40rpx;
+}

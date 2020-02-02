@@ -1,0 +1,18 @@
+<!--pages/other/settings/settings.wxml-->
+<view class="settings-page">
+  <view class="navigator-list">
+    <navigator class="navigator-item line-bottom flex jcsb" url="/sub-mine/settings/agreement/agreement">
+      <text>服务条款</text>
+      <icon class="iconfont icon-next"></icon>
+    </navigator>
+    <view class="navigator-item line-bottom flex jcsb" bindtap="handleShareLink">
+      <text>分享链接</text>
+      <icon class="iconfont icon-next"></icon>
+    </view>
+    <navigator class="navigator-item flex jcsb" url="/sub-mine/settings/about/about">
+      <text>关于我们</text>
+      <icon class="iconfont icon-next"></icon>
+    </navigator>
+  </view>
+  <navigator class="logout" url="">退出登录</navigator>
+</view>

@@ -1,0 +1,39 @@
+<!--pages/other/about/about.wxml-->
+<view class="about-page">
+  <view class="pic">
+    <view class="wrapper">
+      <image src="/image/logo.png"></image>
+    </view>
+  </view>
+  <view class="text">
+    <text class="caption">【关于我们】</text>
+    <text class="context">有市YOS168.com五金电气建材采购批发平台，是专为建材行业用户解决快速采购下单需求的新型电子渠道，集线上看货，线下提货，门店体验等多种综合服务一体。</text>
+
+    <text class="caption">【品类多样  涵盖面广】</text>
+    <text class="context">商品涵盖装修工程用品，小至一颗螺丝钉，大至起重设备，你都能找到！</text>
+    <text class="context">主要分类包括：五金工具、紧固件、门窗五金、机电轴承、焊接设备、电工电料、照明电器、厨卫洁具、水暖器材、给排水、消防安防、油漆化工、装潢材料、劳保日杂</text>
+
+    <text class="caption">【大牌合作 货源保障】</text>
+    <text class="context">焊接设备：大西洋、金桥、湘江、火神等品牌</text>
+    <text class="context">机电轴承：奥突斯、西菱、西湖、凌格风、国强、博世、美特等品牌</text>
+    <text class="context">照明电器：三雄极光、佛山照明、飞利浦、金羚老字号、正野、松下等品牌</text>
+    <text class="context">电工电料：斯耐德、德力西、新亚电缆、珠江电线等品牌</text>
+    <text class="context">油漆化工：多乐士、嘉宝莉、美涂士、依来德、得时宝、粤信防水、晨阳水漆等品牌 还有联塑、钢盾、史丹利、长城精工、东威、雅谣、支建、3M、卫康大牌等着你</text>
+
+    <text class="caption">【服务中心  落地配送】</text>
+    <text class="context">有市在全国布局多个服务中心，集现场展示、售前咨询、售后配套、一体化解决方案为一体； 网上看货，线下提货，售后跟进。</text>
+
+    <text class="caption">【联系我们  在线等候】</text>
+    <text class="context">官方网站：www.yos168.com</text>
+    <text class="context">官方微信：有市168（ID：yos168com）</text>
+    <text class="context">客服热线：400-930-2128</text>
+    <text class="context">客服邮箱：yos168@lesso.com</text>
+  </view>
+  <view class="cr">
+    <view class="wrapper">
+      <text>Copyright © 2014-2018</text>
+      <text>佛山市联塑电子商务有限公司</text>
+    </view>
+  </view>
+</view>
+

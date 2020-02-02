@@ -1,0 +1,5 @@
+<!--component/message-icon-link/message-icon-link.wxml-->
+<navigator 
+  class="c-message-icon iconfont icon-message un-read" 
+  url="/sub-mine/message/message"
+/>
